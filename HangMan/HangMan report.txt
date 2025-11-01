@@ -1,0 +1,60 @@
+HangMan report
+
+So this report will be about everything i did in hangman
+
+This is nott the final report JOhn this is just a report to say i did x or y and then tried b
+
+SO lets start im confused as all hell about what exactly is going on so i will now try to add the getaddrinfo function although i dont excacty know what it does
+it seems to change the 4th option
+
+
+added get addr code and will now tyrto compile it
+
+added a new veriable 
+struct addrinfo its what was used in the other version now converting stufff some functions dont see to work so im gonna try removing them
+
+The accept fuction checks every coonection and with this connection it then returns a none negative number if connection happnes
+Loops in c will wait for if statements to be correct before proceeding
+. This means the program will get stuck at the certain piont before moving on
+So instead of normal of saying the line in loop repeataably it waits before going anywhere
+
+have started everything and am getting fustrated
+THe write function seems to write to a file but no files are there
+then you have functions just to makes a char* another char pionter but sometimes just dont if you use na if statement
+then you can just have a check
+
+STarting tryonig to make a =n array of pids but issues due to checks
+The code uses alot of char* and ive figured out how to send messages in a way although  i stuggling to understand it
+
+
+STarting tryonig to make a =n array of pids but issues due to checks with null so making each pid =-1 if they are wrong
+We are planning to use  moving array so we check each piont unti we find the emmpty array piont and then use it like that
+All of this is for a timer shutDown Feature
+
+The accept function is doing alot of major bloocking so that my other code wont work till it finds a new connection but that isnt what we want
+
+Current problems 
+Idont understand the poll fucntion i dont understand the select function gonna assume the teacher knows it and will guide us the accept function blocks everything like wowo
+
+SO gonna take a break form this 
+Problems no loop cant chekc each connection
+needs mroe comments
+needs more stuff in it
+Didnt get the poll working yet but managed to get the select working with already done code. Added a 1 seconds loop ot it to get it working the timer needs to be inthe loop with the variable constantly being set
+
+issues after converting code over trying alot more work
+issues popped up with the first 1 function may need to focus n dual stackissues
+
+I then went on to forget the code to add a child too it yeah fudge
+now i tyring to add it while also having more andmore variables gettign added will need ot rename half of them later
+
+fd_set is its own variable not an int its isnt highlighted kinda wierd
+
+after 20 minutes of checking whats wrong with my code for the hangman chekcing why the clietn couldnt connect ive concluded the problem was in fact the cient. Due ot the new structure of code i was using the client will now need to be updated and also the code we use will need to be updated also in order to properly send then to the game hey are using
+
+Select_clietn needs to accept both addresses but cant since it can only use 1
+
+Going back to the report today im going to be attempting some more things for this project
+First doing the hangman game at all we need to check if it is working at getting there and may need to fix it a bit.
+next we need to check how to interact with them all
+NOw gonna attemmpt a bit more stuff
