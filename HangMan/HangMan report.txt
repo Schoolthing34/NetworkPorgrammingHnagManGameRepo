@@ -58,3 +58,21 @@ Going back to the report today im going to be attempting some more things for th
 First doing the hangman game at all we need to check if it is working at getting there and may need to fix it a bit.
 next we need to check how to interact with them all
 NOw gonna attemmpt a bit more stuff
+
+
+OKay i now have hangman wokring with some basic things but it only works with 1 client at a time and am currently trying to fix this.
+My first move is to remove parts of the hangman and seperate them since the beggining isnt needed to work but this has many issues with pionters and data where its casuing me a headache. It seems the pionters just cant be read or used after its enters and leves the function and any attempt to fix doesnt really work. I keep trying to make them reference things but no. The code requires pionters since many functions really on it and ijust dont really know where to go from here.
+
+been working till 3 am making structs wokr made a function to chekc if a variable is null but set it to only wokr if its not null so therfor its never triggered and broke many times. Currently testing a multi player sturct system should work
+
+current issue found that the strcutures contained nothing
+to fix this i have removed pointers to the structure and just made them return thestrucure on completion
+It is also looping 2 player guesses then backt o restart
+
+the errors seems to literally just be an indenting problem with the code i hate this
+nevermind that didnt work at ll
+
+20 to 5 am
+= is ot == omg im losing my mind 
+not need to ifx problem with only 3 guesses allowed
+Its not 3 guesses eroor in the writing part so it just stops so what am i supposed ot do like
